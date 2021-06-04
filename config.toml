@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://example.com/"
+baseurl = "https://leandromatospereira.netlify.app"
 languageCode = "pt-br"
 
 #title = "Leandro de Matos"
@@ -42,7 +42,7 @@ paginate = 5
     name = "Home"
     weight = 100
     identifier = "home"
-    url = "http://localhost:1313"
+    url = "https://leandromatospereira.netlify.app"
 [[menu.main]]
     name = "About"
     identifier = "about"
