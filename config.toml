@@ -18,7 +18,7 @@ paginate = 5
 [params]
     author = "Leandro de Matos Pereira"
     title = "System Engineering"
-    authorimage = "/img/hugo.png"
+    authorimage = "/img/hugo.jpg"
     description = "Software Engineering Sr Analyst"
     dateformat = "Jan 2, 2006"
 
