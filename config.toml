@@ -1,0 +1,60 @@
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "pt-br"
+
+#title = "Leandro de Matos"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+summarylength = 30
+
+paginate = 5
+
+## Site Settings
+[params]
+    author = "Leandro de Matos Pereira"
+    title = "System Engineering"
+    authorimage = "/img/hugo.jpg"
+    description = "Software Engineering Sr Analyst"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    # logoimage = "/img/hugo.jpg"
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+
+## Social Accounts
+[params.social]
+    github = "leandro-matos"
+    instagram = "leandro_mattosp"
+    linkedin = "leandro-matos-pereira"
+    facebook = "leandr.matt"
+    email = "leandromatpereira@hotmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Home"
+    weight = 100
+    identifier = "home"
+    url = "http://localhost:1313"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
