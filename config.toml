@@ -18,12 +18,12 @@ paginate = 5
 [params]
     author = "Leandro de Matos Pereira"
     title = "System Engineering"
-    authorimage = "/img/hugo.png"
+    authorimage = "//img/hugo.png"
     description = "Software Engineering Sr Analyst"
     dateformat = "Jan 2, 2006"
 
     # sidebar, copyright & license
-    logoimage = "/img/hugo.jpg"
+    logoimage = "//img/hugo.jpg"
 
     # https://highlightjs.org
     highlightjs = true
