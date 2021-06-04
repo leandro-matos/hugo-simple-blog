@@ -2,7 +2,7 @@
 baseurl = "https://leandromatospereira.netlify.app/"
 languageCode = "pt-br"
 
-title = "Leandro de Matos"
+#title = "Leandro de Matos"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
